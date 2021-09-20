@@ -14,3 +14,6 @@ sudo apt-get install
          libc6-dev-i386 lib32ncurses5-dev \
      x11proto-core-dev libx11-dev 
          lib32z-dev libgl1-mesa-dev xsltproc unzip
+
+# change permission for build script when downloaded as zip
+chmod +rx build.sh
