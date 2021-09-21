@@ -15,8 +15,8 @@ echo 1 > /proc/cpufreq/cpufreq_cci_mode
 echo 0 > /sys/devices/system/cpu/eas/enable
 echo 1 > /sys/devices/system/cpu/perf/enable
 	
-# lock GPU to max frequency (823000 on other kernels, mine is overclocked so it's 920000)
-echo 920000 > /proc/gpufreq/gpufreq_opp_freq
+# lock GPU to max frequency (823000 on other kernels, mine is overclocked so it's 900000)
+echo 900000 > /proc/gpufreq/gpufreq_opp_freq
 	
 # disable thermal throttling
 echo 1 > /proc/ppm/enabled
